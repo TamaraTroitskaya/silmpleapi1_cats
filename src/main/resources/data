@@ -1,5 +1,5 @@
-INSERT INTO public.product (name, brand, price, quantity) VALUES ('Молоко', 'Домик в деревне', '70', '10');
-INSERT INTO public.product (name, brand, price, quantity) VALUES ('Йогурт', 'Valio', '34', '6');
-INSERT INTO public.product (name, brand, price, quantity) VALUES ('Пельмени', 'Сытоедов', '120', '4');
-INSERT INTO public.product (name, brand, price, quantity) VALUES ('Хлебцы', 'Dr. Korner', '60', '3');
-INSERT INTO public.product (name, brand, price, quantity) VALUES ('Вода негазированная', 'Evian', '100', '5');
+INSERT INTO public.cats (name, breed, age, owner) VALUES ('Монти', 'шотланская вислоухая', '4', 'Петр Сидоров');
+INSERT INTO public.cats (name, breed, age, owner) VALUES ('Борис', 'мейн-кун', '7', 'Мария Федорова');
+INSERT INTO public.cats (name, breed, age, owner) VALUES ('Гантеля', 'сфинкс', '5', 'Сергей Коврижкин');
+INSERT INTO public.cats (name, breed, age, owner) VALUES ('Зося', 'персидская', '10', 'Виктор Мавроди');
+INSERT INTO public.cats (name, breed, age, owner) VALUES ('Пунька', 'сибирская', '1', 'Альфия Кактусова');

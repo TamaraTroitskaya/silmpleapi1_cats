@@ -5,12 +5,12 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.transaction.annotation.Transactional;
-import ru.mtuci.silmpleapi1.model.Product;
+import ru.mtuci.silmpleapi1.model.Cats;
 
 @Transactional(readOnly = true)
-public interface ProductRepository extends JpaRepository<Product,Long> {
+public interface CatsRepository extends JpaRepository<Cats,Long> {
     @Transactional
     @Modifying
-    @Query ("DELETE FROM Product p WHERE p.id=:id")
+    @Query ("DELETE FROM Cats p WHERE p.id=:id")
     int delete (@Param("id") Long id);
 }
